@@ -37,10 +37,10 @@ function findBestEmployee(employees) {
 }
 
 const employees = {
-    Artem: 29,
-    Lera: 35,
-    Max: 13,
-    Vasiliy: 42
+    artem: 29,
+    lera: 35,
+    max: 13,
+    vasiliy: 42
 };
 
 console.log(findBestEmployee(employees));
@@ -56,10 +56,10 @@ function countTotalSalary(employees) {
 }
 
 const salaries = {
-    Artem: 1500,
-    Lera: 2500,
-    Max: 1800,
-    Vasiliy: 2200
+    artem: 1500,
+    lera: 2500,
+    max: 1800,
+    vasiliy: 2200
 };
 
 console.log(`Загальна сума зарплати: ${countTotalSalary(salaries)}`);
